@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<world>
+  <actors>
+    <brushes>
+      <terrain_segments>
+        <terrain_segment>
+          <position>( 54.000,  0.000)</position>
+          <vertices>[(-16.000, -16.000), (-16.000,  16.000), ( 16.000,  16.000), ( 16.000, -16.000)]</vertices>
+          <friction>0.5</friction>
+          <texture></texture>
+        </terrain_segment>
+        <terrain_segment>
+          <position>(-18.000, -56.000)</position>
+          <vertices>[(-16.000, -16.000), (-16.000,  16.000), ( 16.000,  16.000), ( 16.000, -16.000)]</vertices>
+          <friction>0.5</friction>
+          <texture></texture>
+        </terrain_segment>
+        <terrain_segment>
+          <position>(-86.000,  2.000)</position>
+          <vertices>[(-16.000, -16.000), (-16.000,  16.000), ( 16.000,  16.000), ( 16.000, -16.000)]</vertices>
+          <friction>0.5</friction>
+          <texture></texture>
+        </terrain_segment>
+      </terrain_segments>
+    </brushes>
+  </actors>
+</world>

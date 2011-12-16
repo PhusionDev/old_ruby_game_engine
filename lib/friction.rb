@@ -1,0 +1,9 @@
+module Friction
+  PLAYER = 0.40
+  SPRITE_SMALL = 0.20
+  SPRITE_MEDIUM = 0.40
+  SPRITE_LARGE = 0.60
+  GRASS = 0.40
+  DIRT = 0.25
+  TAR = 0.90
+end

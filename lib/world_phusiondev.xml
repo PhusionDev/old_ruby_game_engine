@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<world>
+  <actors>
+    <brushes>
+      <terrain_segments>
+        <terrain_segment>
+          <position x="0.0" y="32.0"/>
+          <vertex x="-256.0" y="0.0"/>
+          <vertex x="-256.0" y="64.0"/>
+          <vertex x="256.0" y="64.0"/>
+          <vertex x="256.0" y="0.0"/>
+          <friction>0.5</friction>
+          <texture id="0"/>
+        </terrain_segment>
+        <terrain_segment>
+          <position x="-256.0" y="32.0"/>
+          <vertex x="0.0" y="-192.0"/>
+          <vertex x="0.0" y="0.0"/>
+          <vertex x="16.0" y="0.0"/>
+          <vertex x="16.0" y="-192.0"/>
+          <friction>0.5</friction>
+          <texture id="0"/>
+        </terrain_segment>
+        <terrain_segment>
+          <position x="256.0" y="32.0"/>
+          <vertex x="-16.0" y="-192.0"/>
+          <vertex x="-16.0" y="0.0"/>
+          <vertex x="0.0" y="0.0"/>
+          <vertex x="0.0" y="-192.0"/>
+          <friction>0.5</friction>
+          <texture id="0"/>
+        </terrain_segment>
+        <terrain_segment>
+          <position x="0.0" y="-160.0"/>
+          <vertex x="-240.0" y="0.0"/>
+          <vertex x="-240.0" y="16.0"/>
+          <vertex x="240.0" y="16.0"/>
+          <vertex x="240.0" y="0.0"/>
+          <friction>0.5</friction>
+          <texture id="0"/>
+        </terrain_segment>
+        <terrain_segment>
+          <position x="64.0" y="32.0"/>
+          <vertex x="0.0" y="-16.0"/>
+          <vertex x="0.0" y="0.0"/>
+          <vertex x="96.0" y="0.0"/>
+          <vertex x="96.0" y="-64.0"/>
+          <friction>0.5</friction>
+          <texture id="0"/>
+        </terrain_segment>
+        <terrain_segment>
+          <position x="160.0" y="32.0"/>
+          <vertex x="0.0" y="-64.0"/>
+          <vertex x="0.0" y="0.0"/>
+          <vertex x="80.0" y="0.0"/>
+          <vertex x="80.0" y="-64.0"/>
+          <friction>0.5</friction>
+          <texture id="0"/>
+        </terrain_segment>
+        <terrain_segment>
+          <position x="-240.0" y="32.0"/>
+          <vertex x="0.0" y="-16.0"/>
+          <vertex x="0.0" y="0.0"/>
+          <vertex x="304.0" y="0.0"/>
+          <vertex x="304.0" y="-16.0"/>
+          <friction>0.5</friction>
+          <texture id="0"/>
+        </terrain_segment>
+        <terrain_segment>
+          <position x="0.0" y="-144.0"/>
+          <vertex x="-16.0" y="0.0"/>
+          <vertex x="-48.0" y="64.0"/>
+          <vertex x="48.0" y="64.0"/>
+          <vertex x="16.0" y="0.0"/>
+          <friction>0.5</friction>
+          <texture id="0"/>
+        </terrain_segment>
+        <terrain_segment>
+          <position x="-224.0" y="-144.0"/>
+          <vertex x="-16.0" y="0.0"/>
+          <vertex x="-16.0" y="48.0"/>
+          <vertex x="16.0" y="16.0"/>
+          <vertex x="16.0" y="0.0"/>
+          <friction>0.5</friction>
+          <texture id="0"/>
+        </terrain_segment>
+      </terrain_segments>
+      <volumes>
+        <water_volumes/>
+        <slime_volumes/>
+        <lava_volumes/>
+      </volumes>
+    </brushes>
+    <sprites>
+      <sprite x="0.0" y="-32.0" file="media/sprite_default.bmp"/>
+      <sprite x="-118.0" y="-34.0" file="media/image_segment01.bmp"/>
+    </sprites>
+    <decorations/>
+    <lights>
+      <static_lights/>
+      <dynamic_lights/>
+    </lights>
+    <navigation_points>
+      <player_starts/>
+      <teleporters/>
+    </navigation_points>
+    <pickups/>
+    <triggers/>
+  </actors>
+  <resources>
+    <textures>
+      <texture id="0" file="media/tex_default.bmp"/>
+    </textures>
+    <audio>
+      <effects/>
+      <tracks/>
+    </audio>
+  </resources>
+</world>

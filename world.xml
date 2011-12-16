@@ -1,0 +1,83 @@
+<world>
+  <actors>
+    <brushes>
+      <terrain_segments>
+        <terrain_segment>
+          <position>(0,0)</position>
+          <friction>0.43</friction>
+          <texture>3</texture>
+          <vertices>[(0,0)(0,16)(16,16)(16,0)]</vertices>
+        </terrain_segment>
+        <terrain_segment>
+          <position>(128,0)</position>
+          <friction>0.52</friction>
+          <texture>2</texture>
+          <vertices>[(0,0)(0,16)(16,16)(16,0)]</vertices>
+        </terrain_segment>
+      </terrain_segments>
+      
+      <volumes>
+        <water_volumes>
+        </water_volumes>
+        
+        <lava_volumes>
+        </lava_volumes>
+        
+        <slime_volumes>
+        </slime_volumes>
+      </volumes>
+    </brushes>
+    
+    <ambient_sounds>
+      <ambient_sound>
+        <position>(-2048,64)</position>
+        <radius>1024</radius>
+        <volume>192</volume>
+        <track>2</track>
+        <loop>true</loop>
+      </ambient_sound>
+    </ambient_sounds>
+    
+    <sprites>
+    </sprites>
+    
+    <decorations>
+    </decorations>
+    
+    <navigation_points>
+      <teleporters>
+      </teleporters>
+      
+      <player_starts>
+      </player_stars>
+    </navigation_points>
+    
+    <pickups>
+    </pickups>
+    
+    <triggers>
+    </triggers>
+  </actors>
+  
+  <resources>
+    <textures>
+      <texture id="0">textures/default.png</texture>
+      <texture id="1">textures/grass01.png</texture>
+      <texture id="2">textures/stone01.png</texture>
+      <texture id="3">textures/dirt01.png</texture>
+    </textures>
+  
+    <audio>
+      <effects>
+        <effect id="0">effects/jump.ogg</effect>
+        <effect id="1">effects/slide.ogg</effect>
+        <effect id="2">effects/attack.ogg</effect>
+      </effects>
+    
+      <tracks>
+        <track id="0">audio/genesis.ogg</track>
+        <track id="1">audio/bliss.ogg</track>
+      </tracks>
+    </audio>
+  </resources>
+</world>
